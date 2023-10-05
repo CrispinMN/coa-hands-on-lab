@@ -145,7 +145,7 @@ steps:
               - columnReferences:
                   - columnCounter: a463dcb4-8fea-4c03-815e-5b73f6589afe
                     stepCounter: 8185d69e-b995-4ba0-a825-cf56c3f766ec
-                transform: ""
+                transform: nvl("PSTG_PART_PARTSUPP"."P_CONTAINER", 'no cotainer')
           - columnReference:
               columnCounter: c0068fbc-8767-4864-b86b-6ec2bd27a156
               stepCounter: ec0f6bf6-2ddf-4bb3-a263-6e05b12bd210
